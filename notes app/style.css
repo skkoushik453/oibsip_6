@@ -1,0 +1,80 @@
+
+body {
+    background: linear-gradient(to bottom right, #87ceeb, #185a9d);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+h1 {
+    font-weight: bold;
+    font-size: 48px;
+    color: blue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+h2 {
+    font-size: 36px;
+    color: blue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+ p {
+    margin: 16px 0;
+    color: blue;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+ a {
+    color: blue;
+    text-decoration: underline;
+  }
+ a:hover {
+    color: #2298c7;
+  }
+ ul {
+    margin: 16px 0;
+    list-style-position: inside;
+  }
+  
+ li {
+    margin: 8px 0;
+  }
+  
+ code {
+    background-color: #333333;
+    color: #ffffff;
+    font-family: monospace;
+    padding: 4px;
+  }
+  pre {
+    background-color: #333333;
+    color: blue;
+    font-family: monospace;
+    padding: 16px;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 32px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+   #note {
+    width: 100%;
+    padding: 16px;
+    border: 1px solid blueviolet;
+    border-radius: 8px;
+    resize: vertical;
+  }
+  #save {
+    width: 100%;
+    padding: 16px;
+    background-color: #953be9;
+    color: #5f0303;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 16px;
+  }
+  #save:hover {
+    background-color: #05b6ec;
+  }
+  #notes {
+    margin-top: 32px;
+  }
